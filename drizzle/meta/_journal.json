@@ -1,0 +1,13 @@
+{
+  "version": "5",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1740926759278,
+      "tag": "0000_handy_rockslide",
+      "breakpoints": true
+    }
+  ]
+}
