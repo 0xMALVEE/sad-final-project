@@ -31,7 +31,7 @@ export default function AdminPage() {
   const deleteMessage = async (id: string) => {
     setDeleteStatus({id, status: 'deleting'});
     try {
-      const response = await fetch(`/api/messages/${id}`, {
+      const response = await fetch(`/api/delete-message?id=${id}`, {
         method: 'DELETE',
       });
       
